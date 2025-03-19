@@ -49,7 +49,7 @@ Before using the application, you need to configure the data source settings to 
 
 1. Click on the **Settings** button in the top right corner of the dashboard.
 2. In the settings dialog, you can choose between **Mock Data** (for development) and **Prometheus API**.
-3. If you select **Prometheus API**, enter the base URL of your Prometheus server (e.g., `http://localhost:9090`).
+3. If you select **Prometheus API**, enter the base URL of your Prometheus server (e.g., `http://localhost:9090`). To port-forward Prometheus to your local machine, you can use `kubectl port-forward svc/prometheus-service 9090:9090`.
 
 ### Using the Dashboard
 
